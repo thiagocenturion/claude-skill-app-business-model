@@ -30,7 +30,7 @@ Most monetization advice is generic. This skill is grounded in your actual codeb
 
 ```bash
 cd ~/.claude/skills
-git clone https://github.com/[your-username]/claude-skill-app-business-model.git app-business-model
+git clone https://github.com/thiagocenturion/claude-skill-app-business-model.git app-business-model
 ```
 
 ### Option 2: Add as a dependency in your project's `.claude/settings.json`
@@ -38,7 +38,7 @@ git clone https://github.com/[your-username]/claude-skill-app-business-model.git
 ```json
 {
   "skills": [
-    "github:[your-username]/claude-skill-app-business-model"
+    "github:thiagocenturion/claude-skill-app-business-model"
   ]
 }
 ```
